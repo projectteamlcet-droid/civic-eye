@@ -23,7 +23,7 @@ const Landing = () => {
             <div className="w-8 h-8 rounded-lg gradient-primary flex items-center justify-center">
               <Shield className="w-5 h-5 text-primary-foreground" />
             </div>
-            <span className="font-bold text-lg">CivicAI</span>
+            <span className="font-bold text-lg">Infra-Pulse</span>
           </div>
           <div className="hidden md:flex items-center gap-8 text-sm text-muted-foreground">
             <a href="#problems" className="hover:text-foreground transition-colors">Problems</a>
@@ -187,7 +187,7 @@ const Landing = () => {
                 <div className="w-8 h-8 rounded-lg gradient-primary flex items-center justify-center">
                   <Shield className="w-5 h-5 text-primary-foreground" />
                 </div>
-                <span className="font-bold text-lg">CivicAI</span>
+                <span className="font-bold text-lg">Infre-Pulse</span>
               </div>
               <p className="text-sm text-muted-foreground">AI-powered infrastructure intelligence for smarter cities.</p>
             </div>
@@ -207,7 +207,7 @@ const Landing = () => {
             ))}
           </div>
           <div className="border-t border-border/50 mt-8 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
-            <p className="text-sm text-muted-foreground">© 2026 CivicAI. All rights reserved.</p>
+            <p className="text-sm text-muted-foreground">© 2026 Infra-Pulse. All rights reserved.</p>
             <div className="flex gap-4">
               {[Twitter, Github, Linkedin, Mail].map((Icon, i) => (
                 <a key={i} href="#" className="text-muted-foreground hover:text-primary transition-colors">
